@@ -13,3 +13,14 @@ class Order:
 class ProductType:
     def __init__(self, weight):
         self.weight = weight
+
+class Drone:
+    """
+    - temps_occup
+    - position
+    """
+    
+    def __init__(self, position, temps_occup):
+        self.position = position
+        self.temps_occup = temps_occup
+        
